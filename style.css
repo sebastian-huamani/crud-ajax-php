@@ -39,9 +39,21 @@ html{
 table{
     margin: 0 auto;
     font-size: 1.5rem;
+    height: 1rem;
+    width: 50rem;
+    min-width: 50rem;
 }
 table tr,
 table td{
     padding : 0.5rem 1rem;
     border: 1px solid black;
+}
+.thead-name{
+    width: 11rem;
+    min-width: 11rem;
+}
+.thead-descripcion{
+    width: 25rem;
+    min-width: 25rem;
+
 }
