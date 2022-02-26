@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <form class="form-search">
+            <input type="search" id="search" class="" placeholder="Search your task">
+            <button class="btn" type="submit" disabled="true">
+                Search
+            </button>
+        </form>
+    </nav>
+    
+    
+    <div class="body-dashboard">
+
+        <form id="task-form">
+            <input type="hidden" id="taskId">
+            <input type="text" name="name" id="name" placeholder="name">
+            <textarea name="description" id="description" cols="30" rows="10" placeholder="description"></textarea>
+            <button type="submit">
+                Save Task
+            </button>
+        </form>
+        
+        
+        <table class="title">
+            <thead>
+                <tr>
+                    <td>ID</td>
+                    <td>Name</td>
+                    <td>Descripcion</td>
+                </tr>
+            </thead>
+            <tbody id="tasks-body">
+                
+            </tbody>
+            <tbody id="contenedor-tasks">
+                
+                
+            </tbody>
+            
+        </table>
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
